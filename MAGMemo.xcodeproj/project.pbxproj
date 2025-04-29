@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257404D82DA64E0D003EB7B7 /* AutoGrowingTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257404D72DA64E0D003EB7B7 /* AutoGrowingTextEditorView.swift */; };
+		257405042DAD29BA003EB7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257405032DAD29BA003EB7B7 /* LaunchScreen.storyboard */; };
+		2588AE6C2D9CD3CF005DD082 /* MAGMemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588AE6B2D9CD3CF005DD082 /* MAGMemoDetailViewModel.swift */; };
+		25C711B72D9427C6007B05B7 /* EditConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C711B62D9427C6007B05B7 /* EditConversationView.swift */; };
+		25C711B92D94BB64007B05B7 /* EditConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C711B82D94BB64007B05B7 /* EditConversationViewModel.swift */; };
+		25C711CF2D98119D007B05B7 /* MAGMemoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C711CE2D98119D007B05B7 /* MAGMemoDetailView.swift */; };
+		25DBF6412D9385B0001415ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DBF6372D9385B0001415ED /* Preview Assets.xcassets */; };
+		25DBF6422D9385B0001415ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DBF63F2D9385B0001415ED /* Assets.xcassets */; };
+		25DBF6432D9385B0001415ED /* MAGMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF6322D9385B0001415ED /* MAGMemoApp.swift */; };
+		25DBF6442D9385B0001415ED /* MAGMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF6342D9385B0001415ED /* MAGMemo.swift */; };
+		25DBF6452D9385B0001415ED /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF6352D9385B0001415ED /* Message.swift */; };
+		25DBF6462D9385B0001415ED /* MAGMemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF6392D9385B0001415ED /* MAGMemoListViewModel.swift */; };
+		25DBF6472D9385B0001415ED /* EditBasicInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF63B2D9385B0001415ED /* EditBasicInfoView.swift */; };
+		25DBF6492D9385B0001415ED /* MAGMemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF63D2D9385B0001415ED /* MAGMemoListView.swift */; };
+		25DBF64B2D93A32C001415ED /* EditBasicInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBF64A2D93A32C001415ED /* EditBasicInfoViewModel.swift */; };
+		25E9E8AC2DB333CF00B86E55 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 25E9E8AB2DB333CF00B86E55 /* FirebaseAnalytics */; };
+		25E9E8AE2DB333CF00B86E55 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 25E9E8AD2DB333CF00B86E55 /* FirebaseFirestore */; };
+		A891ACE92DBB5B0A00855F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891ACE82DBB5B0A00855F02 /* AppDelegate.swift */; };
+		A891ACEE2DBB5C5400855F02 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891ACEC2DBB5C5400855F02 /* View+.swift */; };
+		A891ACF02DBB5DC300855F02 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A891ACEF2DBB5DC300855F02 /* FirebaseAuth */; };
+		A891ACF62DBB607600855F02 /* MemoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891ACF42DBB607600855F02 /* MemoRepository.swift */; };
+		A891ACFC2DBB71CC00855F02 /* ConstantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891ACFA2DBB71CC00855F02 /* ConstantData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C4D1392D80522D00D1CBC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C4D1202D80522B00D1CBC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C4D1272D80522B00D1CBC1;
+			remoteInfo = MAGMemo;
+		};
+		A8C4D1432D80522D00D1CBC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C4D1202D80522B00D1CBC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C4D1272D80522B00D1CBC1;
+			remoteInfo = MAGMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257404D72DA64E0D003EB7B7 /* AutoGrowingTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoGrowingTextEditorView.swift; sourceTree = "<group>"; };
+		257404F12DAD014F003EB7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		257405032DAD29BA003EB7B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2588AE6B2D9CD3CF005DD082 /* MAGMemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGMemoDetailViewModel.swift; sourceTree = "<group>"; };
+		25C711B62D9427C6007B05B7 /* EditConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditConversationView.swift; sourceTree = "<group>"; };
+		25C711B82D94BB64007B05B7 /* EditConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditConversationViewModel.swift; sourceTree = "<group>"; };
+		25C711CE2D98119D007B05B7 /* MAGMemoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGMemoDetailView.swift; sourceTree = "<group>"; };
+		25DBF6322D9385B0001415ED /* MAGMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGMemoApp.swift; sourceTree = "<group>"; };
+		25DBF6342D9385B0001415ED /* MAGMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGMemo.swift; sourceTree = "<group>"; };
+		25DBF6352D9385B0001415ED /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		25DBF6372D9385B0001415ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25DBF6392D9385B0001415ED /* MAGMemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGMemoListViewModel.swift; sourceTree = "<group>"; };
+		25DBF63B2D9385B0001415ED /* EditBasicInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBasicInfoView.swift; sourceTree = "<group>"; };
+		25DBF63D2D9385B0001415ED /* MAGMemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGMemoListView.swift; sourceTree = "<group>"; };
+		25DBF63F2D9385B0001415ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DBF64A2D93A32C001415ED /* EditBasicInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBasicInfoViewModel.swift; sourceTree = "<group>"; };
+		A891ACE82DBB5B0A00855F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A891ACEC2DBB5C5400855F02 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		A891ACF42DBB607600855F02 /* MemoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoRepository.swift; sourceTree = "<group>"; };
+		A891ACFA2DBB71CC00855F02 /* ConstantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantData.swift; sourceTree = "<group>"; };
+		A8C4D1282D80522B00D1CBC1 /* MAGMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAGMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C4D1382D80522D00D1CBC1 /* MAGMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAGMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C4D1422D80522D00D1CBC1 /* MAGMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAGMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A8C4D13B2D80522D00D1CBC1 /* MAGMemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MAGMemoTests;
+			sourceTree = "<group>";
+		};
+		A8C4D1452D80522D00D1CBC1 /* MAGMemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MAGMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C4D1252D80522B00D1CBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E9E8AC2DB333CF00B86E55 /* FirebaseAnalytics in Frameworks */,
+				A891ACF02DBB5DC300855F02 /* FirebaseAuth in Frameworks */,
+				25E9E8AE2DB333CF00B86E55 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C4D1352D80522D00D1CBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C4D13F2D80522D00D1CBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257405022DAD2944003EB7B7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				257405032DAD29BA003EB7B7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		25DBF6332D9385B0001415ED /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				25DBF6322D9385B0001415ED /* MAGMemoApp.swift */,
+				A891ACE82DBB5B0A00855F02 /* AppDelegate.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		25DBF6362D9385B0001415ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25DBF6342D9385B0001415ED /* MAGMemo.swift */,
+				25DBF6352D9385B0001415ED /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25DBF6382D9385B0001415ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25DBF6372D9385B0001415ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25DBF63A2D9385B0001415ED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				25DBF6392D9385B0001415ED /* MAGMemoListViewModel.swift */,
+				25DBF64A2D93A32C001415ED /* EditBasicInfoViewModel.swift */,
+				25C711B82D94BB64007B05B7 /* EditConversationViewModel.swift */,
+				2588AE6B2D9CD3CF005DD082 /* MAGMemoDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25DBF63E2D9385B0001415ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25DBF63D2D9385B0001415ED /* MAGMemoListView.swift */,
+				25DBF63B2D9385B0001415ED /* EditBasicInfoView.swift */,
+				25C711B62D9427C6007B05B7 /* EditConversationView.swift */,
+				25C711CE2D98119D007B05B7 /* MAGMemoDetailView.swift */,
+				257404D72DA64E0D003EB7B7 /* AutoGrowingTextEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25DBF6402D9385B0001415ED /* MAGMemo */ = {
+			isa = PBXGroup;
+			children = (
+				257404F12DAD014F003EB7B7 /* Info.plist */,
+				25DBF6332D9385B0001415ED /* Apps */,
+				25DBF63E2D9385B0001415ED /* Views */,
+				25DBF6362D9385B0001415ED /* Models */,
+				25DBF63A2D9385B0001415ED /* ViewModels */,
+				A891ACF52DBB607600855F02 /* Rempositories */,
+				A891ACED2DBB5C5400855F02 /* Extensions */,
+				A891ACFB2DBB71CC00855F02 /* ConstantData */,
+				257405022DAD2944003EB7B7 /* Storyboards */,
+				25DBF6382D9385B0001415ED /* Preview Content */,
+				25DBF63F2D9385B0001415ED /* Assets.xcassets */,
+			);
+			path = MAGMemo;
+			sourceTree = "<group>";
+		};
+		A891ACED2DBB5C5400855F02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A891ACEC2DBB5C5400855F02 /* View+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A891ACF52DBB607600855F02 /* Rempositories */ = {
+			isa = PBXGroup;
+			children = (
+				A891ACF42DBB607600855F02 /* MemoRepository.swift */,
+			);
+			path = Rempositories;
+			sourceTree = "<group>";
+		};
+		A891ACFB2DBB71CC00855F02 /* ConstantData */ = {
+			isa = PBXGroup;
+			children = (
+				A891ACFA2DBB71CC00855F02 /* ConstantData.swift */,
+			);
+			path = ConstantData;
+			sourceTree = "<group>";
+		};
+		A8C4D11F2D80522B00D1CBC1 = {
+			isa = PBXGroup;
+			children = (
+				25DBF6402D9385B0001415ED /* MAGMemo */,
+				A8C4D13B2D80522D00D1CBC1 /* MAGMemoTests */,
+				A8C4D1452D80522D00D1CBC1 /* MAGMemoUITests */,
+				A8C4D1292D80522B00D1CBC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C4D1292D80522B00D1CBC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C4D1282D80522B00D1CBC1 /* MAGMemo.app */,
+				A8C4D1382D80522D00D1CBC1 /* MAGMemoTests.xctest */,
+				A8C4D1422D80522D00D1CBC1 /* MAGMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C4D1272D80522B00D1CBC1 /* MAGMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C4D14C2D80522D00D1CBC1 /* Build configuration list for PBXNativeTarget "MAGMemo" */;
+			buildPhases = (
+				A8C4D1242D80522B00D1CBC1 /* Sources */,
+				A8C4D1252D80522B00D1CBC1 /* Frameworks */,
+				A8C4D1262D80522B00D1CBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAGMemo;
+			packageProductDependencies = (
+				25E9E8AB2DB333CF00B86E55 /* FirebaseAnalytics */,
+				25E9E8AD2DB333CF00B86E55 /* FirebaseFirestore */,
+				A891ACEF2DBB5DC300855F02 /* FirebaseAuth */,
+			);
+			productName = MAGMemo;
+			productReference = A8C4D1282D80522B00D1CBC1 /* MAGMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C4D1372D80522D00D1CBC1 /* MAGMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C4D14F2D80522D00D1CBC1 /* Build configuration list for PBXNativeTarget "MAGMemoTests" */;
+			buildPhases = (
+				A8C4D1342D80522D00D1CBC1 /* Sources */,
+				A8C4D1352D80522D00D1CBC1 /* Frameworks */,
+				A8C4D1362D80522D00D1CBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C4D13A2D80522D00D1CBC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A8C4D13B2D80522D00D1CBC1 /* MAGMemoTests */,
+			);
+			name = MAGMemoTests;
+			packageProductDependencies = (
+			);
+			productName = MAGMemoTests;
+			productReference = A8C4D1382D80522D00D1CBC1 /* MAGMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8C4D1412D80522D00D1CBC1 /* MAGMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C4D1522D80522D00D1CBC1 /* Build configuration list for PBXNativeTarget "MAGMemoUITests" */;
+			buildPhases = (
+				A8C4D13E2D80522D00D1CBC1 /* Sources */,
+				A8C4D13F2D80522D00D1CBC1 /* Frameworks */,
+				A8C4D1402D80522D00D1CBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C4D1442D80522D00D1CBC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A8C4D1452D80522D00D1CBC1 /* MAGMemoUITests */,
+			);
+			name = MAGMemoUITests;
+			packageProductDependencies = (
+			);
+			productName = MAGMemoUITests;
+			productReference = A8C4D1422D80522D00D1CBC1 /* MAGMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C4D1202D80522B00D1CBC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A8C4D1272D80522B00D1CBC1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A8C4D1372D80522D00D1CBC1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A8C4D1272D80522B00D1CBC1;
+					};
+					A8C4D1412D80522D00D1CBC1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A8C4D1272D80522B00D1CBC1;
+					};
+				};
+			};
+			buildConfigurationList = A8C4D1232D80522B00D1CBC1 /* Build configuration list for PBXProject "MAGMemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C4D11F2D80522B00D1CBC1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				25E9E8AA2DB333CF00B86E55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A8C4D1292D80522B00D1CBC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C4D1272D80522B00D1CBC1 /* MAGMemo */,
+				A8C4D1372D80522D00D1CBC1 /* MAGMemoTests */,
+				A8C4D1412D80522D00D1CBC1 /* MAGMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C4D1262D80522B00D1CBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257405042DAD29BA003EB7B7 /* LaunchScreen.storyboard in Resources */,
+				25DBF6412D9385B0001415ED /* Preview Assets.xcassets in Resources */,
+				25DBF6422D9385B0001415ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C4D1362D80522D00D1CBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C4D1402D80522D00D1CBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C4D1242D80522B00D1CBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DBF6432D9385B0001415ED /* MAGMemoApp.swift in Sources */,
+				A891ACFC2DBB71CC00855F02 /* ConstantData.swift in Sources */,
+				25DBF6442D9385B0001415ED /* MAGMemo.swift in Sources */,
+				A891ACE92DBB5B0A00855F02 /* AppDelegate.swift in Sources */,
+				25DBF6452D9385B0001415ED /* Message.swift in Sources */,
+				25C711B72D9427C6007B05B7 /* EditConversationView.swift in Sources */,
+				25DBF6462D9385B0001415ED /* MAGMemoListViewModel.swift in Sources */,
+				2588AE6C2D9CD3CF005DD082 /* MAGMemoDetailViewModel.swift in Sources */,
+				25C711B92D94BB64007B05B7 /* EditConversationViewModel.swift in Sources */,
+				257404D82DA64E0D003EB7B7 /* AutoGrowingTextEditorView.swift in Sources */,
+				25C711CF2D98119D007B05B7 /* MAGMemoDetailView.swift in Sources */,
+				25DBF6472D9385B0001415ED /* EditBasicInfoView.swift in Sources */,
+				25DBF64B2D93A32C001415ED /* EditBasicInfoViewModel.swift in Sources */,
+				A891ACF62DBB607600855F02 /* MemoRepository.swift in Sources */,
+				A891ACEE2DBB5C5400855F02 /* View+.swift in Sources */,
+				25DBF6492D9385B0001415ED /* MAGMemoListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C4D1342D80522D00D1CBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C4D13E2D80522D00D1CBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C4D13A2D80522D00D1CBC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C4D1272D80522B00D1CBC1 /* MAGMemo */;
+			targetProxy = A8C4D1392D80522D00D1CBC1 /* PBXContainerItemProxy */;
+		};
+		A8C4D1442D80522D00D1CBC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C4D1272D80522B00D1CBC1 /* MAGMemo */;
+			targetProxy = A8C4D1432D80522D00D1CBC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8C4D14A2D80522D00D1CBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8C4D14B2D80522D00D1CBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C4D14D2D80522D00D1CBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"MAGMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = Y345KMQSX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAGMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ミーグリメモ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoriku.MAGMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8C4D14E2D80522D00D1CBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"MAGMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = Y345KMQSX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAGMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ミーグリメモ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoriku.MAGMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8C4D1502D80522D00D1CBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y345KMQSX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoriku.MAGMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAGMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MAGMemo";
+			};
+			name = Debug;
+		};
+		A8C4D1512D80522D00D1CBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y345KMQSX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoriku.MAGMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAGMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MAGMemo";
+			};
+			name = Release;
+		};
+		A8C4D1532D80522D00D1CBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y345KMQSX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoriku.MAGMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAGMemo;
+			};
+			name = Debug;
+		};
+		A8C4D1542D80522D00D1CBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y345KMQSX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoriku.MAGMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAGMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C4D1232D80522B00D1CBC1 /* Build configuration list for PBXProject "MAGMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C4D14A2D80522D00D1CBC1 /* Debug */,
+				A8C4D14B2D80522D00D1CBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C4D14C2D80522D00D1CBC1 /* Build configuration list for PBXNativeTarget "MAGMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C4D14D2D80522D00D1CBC1 /* Debug */,
+				A8C4D14E2D80522D00D1CBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C4D14F2D80522D00D1CBC1 /* Build configuration list for PBXNativeTarget "MAGMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C4D1502D80522D00D1CBC1 /* Debug */,
+				A8C4D1512D80522D00D1CBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C4D1522D80522D00D1CBC1 /* Build configuration list for PBXNativeTarget "MAGMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C4D1532D80522D00D1CBC1 /* Debug */,
+				A8C4D1542D80522D00D1CBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25E9E8AA2DB333CF00B86E55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25E9E8AB2DB333CF00B86E55 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25E9E8AA2DB333CF00B86E55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		25E9E8AD2DB333CF00B86E55 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25E9E8AA2DB333CF00B86E55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A891ACEF2DBB5DC300855F02 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A8C4D1202D80522B00D1CBC1 /* Project object */;
+}
