@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/6d015dde-c33c-4260-bce4-129efccd3f9b
 - チーム開発の形式で、プルリクエストを行い、メンターの方にレビューしていただいて修正
 
 ## 【制作期間】
-約1ヶ月
+約2ヶ月
 
 ## 【画面遷移図】
 <p align="center">
